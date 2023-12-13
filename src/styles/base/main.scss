@@ -1,0 +1,21 @@
+@use '../abstract/' as *;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'proximaNova' !important;
+  font-size: 14px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 21px;
+}
+.text-h1 {
+  font-family: 'proximaNova' !important;
+}
