@@ -10,12 +10,43 @@ html,
 body {
   font-family: 'proximaNova' !important;
   font-size: 14px;
+  line-height: 10px;
 }
 
 p {
   font-size: 14px;
   line-height: 21px;
 }
+
 .text-h1 {
   font-family: 'proximaNova' !important;
+}
+
+.text-11 {
+  font-size: 11px;
+}
+.text-12 {
+  font-size: 12px;
+}
+.text-14 {
+  font-size: 14px;
+}
+.text-15 {
+  font-size: 15px;
+}
+.text-16 {
+  font-size: 16px;
+}
+.text-18 {
+  font-size: 18px;
+}
+
+.letter-spacing-9 {
+  letter-spacing: 0.9px;
+}
+
+.cursor-pointer {
+  &:hover {
+    cursor: pointer;
+  }
 }
